@@ -1,5 +1,6 @@
 import React from "react";
 import Break from "../Break/Break";
+import Details from "../Details/Details";
 import Personal from "../PersonalInfo/Personal";
 import Profile from "../Profile/Profile";
 
@@ -12,6 +13,7 @@ const Information = () => {
       <Profile></Profile>
       <Personal></Personal>
       <Break></Break>
+      <Details></Details>
     </div>
   );
 };
