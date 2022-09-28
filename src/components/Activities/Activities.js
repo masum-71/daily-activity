@@ -1,9 +1,11 @@
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React from 'react';
 import './Activities.css'
 
-const Activities = (props) => {
-    const {img, name, description, time} = props.activity;
+const Activities = ({addTime, activity}) => {
+    const {img, name, description, time} = activity;
     return (
         <div className='card'>
             <div className='activity'>
@@ -13,7 +15,9 @@ const Activities = (props) => {
                <h4 className='time'>Time Required: {time}m</h4>
             </div>
             <div className='btn'>
-            <button className='add-btn'>Add to list</button>
+            <button onClick={() => addTime(activity)} className='add-btn'><p>Add to list</p>
+            <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
+            </button>
             </div>
         </div>
     );

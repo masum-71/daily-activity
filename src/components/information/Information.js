@@ -7,13 +7,15 @@ import Profile from "../Profile/Profile";
 import "./Information.css";
 
 
-const Information = () => {
+const Information = ({time}) => {
+ 
+  
   return (
     <div className="info-card">
       <Profile></Profile>
-      <Personal></Personal>
+      <Personal ></Personal>
       <Break></Break>
-      <Details></Details>
+      <Details time={time}></Details>
     </div>
   );
 };

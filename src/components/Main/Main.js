@@ -1,30 +1,38 @@
 import React, { useEffect, useState } from "react";
 import Activities from "../Activities/Activities";
 import Information from "../information/Information";
-import './Main.css'
+import "./Main.css";
 
 const Main = () => {
+  const [activities, setActivities] = useState([]);
 
-    const [activities, setActivities] = useState([]);
-    useEffect(() => {
-        fetch('fakeData.json')
-        .then(res => res.json())
-        .then(data => setActivities(data))
-    }, [])
+  const [time, setTime] = useState([]);
+
+  useEffect(() => {
+    fetch("fakeData.json")
+      .then((res) => res.json())
+      .then((data) => setActivities(data));
+  }, []);
+
+  const addTime = (activity) => {
+    const totalTime = [...time, activity]
+    setTime(totalTime)
+    
+  }
   return (
     <div>
       <h3>Todays Activities</h3>
       <div className="main">
         <div className="activities">
-            {
-                activities.map(activity => <Activities
-                activity = {activity}
-                ></Activities>)
-            }
-          
+          {activities.map((activity) => (
+            <Activities activity={activity}
+             key={activity.id}
+             addTime = {addTime}
+             ></Activities>
+          ))}
         </div>
         <div>
-          <Information></Information>
+          <Information time={time}></Information>
         </div>
       </div>
     </div>
