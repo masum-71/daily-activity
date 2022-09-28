@@ -13,7 +13,7 @@ const Activities = (props) => {
                <h4 className='time'>Time Required: {time}m</h4>
             </div>
             <div className='btn'>
-            <button>Add to list</button>
+            <button className='add-btn'>Add to list</button>
             </div>
         </div>
     );

@@ -1,0 +1,18 @@
+
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(182, 176, 176);
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-break{
+    border: none;
+    border-radius: 50%;
+}
+
+.btn-break:hover{
+    color: red;
+    cursor: pointer;
+}

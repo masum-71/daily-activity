@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Activities from "../Activities/Activities";
+import Information from "../information/Information";
 import './Main.css'
 
 const Main = () => {
@@ -23,7 +24,7 @@ const Main = () => {
           
         </div>
         <div>
-          <h1>this is secondary section</h1>
+          <Information></Information>
         </div>
       </div>
     </div>
