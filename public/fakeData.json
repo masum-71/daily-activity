@@ -3,42 +3,42 @@
     "id": 1,
     "name": "Freshen Up",
     "img": "https://merriam-webster.com/assets/ld/word_of_the_day/images/4040/large.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio excepturi sequi fugiat consectetur ipsa id eos deleniti?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio  ",
     "time": 30
   },
   {
     "id": 2,
     "name": "Excersise",
     "img": "https://familydoctor.org/wp-content/uploads/2016/11/exercise-705x370.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio excepturi sequi fugiat consectetur ipsa id eos deleniti?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio  ",
     "time": 45
   },
   {
     "id": 3,
     "name": "Breakfast",
     "img": "https://post.healthline.com/wp-content/uploads/2021/10/fruit-salad-best-breakfast-foods-1296x728-body.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio excepturi sequi fugiat consectetur ipsa id eos deleniti?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio  ",
     "time": 25
   },
   {
     "id": 4,
     "name": "Office",
     "img": "https://compass-ssl.microsoft.com/assets/f9/4c/f94c2916-6a4e-4cbc-9bc1-9f0e0f4ee46c.png?n=ioc_home_bottomleft_4up_491x276.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio excepturi sequi fugiat consectetur ipsa id eos deleniti?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio  ",
     "time": 480
   },
   {
     "id": 5,
     "name": "Coding",
     "img": "https://cdn.mos.cms.futurecdn.net/9QTpESGBXa32D29J77VR3d.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio excepturi sequi fugiat consectetur ipsa id eos deleniti?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio  ",
     "time": 360
   },
   {
     "id": 6,
     "name": "Diner",
     "img": "https://thecoyotetrip.com/wp-content/uploads/2021/06/patty-melt.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio excepturi sequi fugiat consectetur ipsa id eos deleniti?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos culpa, hic dolores, saepe possimus quae, dolor optio  ",
     "time": 50
   }
 ]
