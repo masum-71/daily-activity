@@ -1,10 +1,9 @@
 import React from "react";
 import "./Details.css";
 
-const Details = (props) => {
-  const {time} = props;
-  console.log(time)
-
+const Details = ({time, minute}) => {
+  // console.log(props)
+  // const {time} = props;
   let totalTime = 0;
   for(let activity of time){
     totalTime = totalTime + activity.time;
@@ -21,7 +20,7 @@ const Details = (props) => {
       <div className="break-time">
         <p>Break time: </p>
         <p>
-          <span>00</span>minutes
+          <span>{minute}</span>minutes
         </p>
       </div>
       <div className="completed">
