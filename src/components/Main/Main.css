@@ -1,12 +1,22 @@
-
-.main{
-    display: grid;
-    grid-template-columns: 4fr 2fr;
-    gap: 20px;
+.main {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  gap: 20px;
 }
 
-.activities{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+.activities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .activities {
+    display: flex;
+    flex-direction: column;
+  }
 }
