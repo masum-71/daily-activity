@@ -1,9 +1,12 @@
 import React from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import "./Details.css";
 
 const Details = ({time, minute}) => {
-  // console.log(props)
-  // const {time} = props;
+  
+
+  const notify = () => toast("Congratulation you have done!");
   let totalTime = 0;
   for(let activity of time){
     totalTime = totalTime + activity.time;
@@ -24,7 +27,8 @@ const Details = ({time, minute}) => {
         </p>
       </div>
       <div className="completed">
-        <button>Activity Completed</button>
+        <button onClick={notify}>Activity Completed</button>
+        <ToastContainer></ToastContainer>
       </div>
     </div>
   );
