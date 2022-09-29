@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Activities from "../Activities/Activities";
+import Blog from "../Blog/Blog";
 import Information from "../information/Information";
 import "./Main.css";
 
@@ -35,6 +36,7 @@ const Main = () => {
           <Information time={time}></Information>
         </div>
       </div>
+      <Blog></Blog>
     </div>
   );
 };
